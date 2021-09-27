@@ -1,3 +1,5 @@
+# Madlibs (o historias locas) es un juego sobre completar una frase 
+# (desconocida al jugador) con información que se pide
 
 def main():
     print(40*"=")
