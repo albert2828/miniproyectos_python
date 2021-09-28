@@ -1,12 +1,15 @@
 from random import randint
+from time import sleep
 
 def main(x):
 
     print(23*"=")
     print(" ¡Bienvenido al juego! ")
     print(23*"=")
+    sleep(3)
     print("EL juego es sencillo")
     print(f"Tienes que adivinar un número entre 1 y {x}")
+    sleep(3)
 
     numero = randint(1, x)
 
