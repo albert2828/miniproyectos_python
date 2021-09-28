@@ -15,8 +15,9 @@ def main(x):
 
     eleccion = 0
     count = 0
+    stop = x//4
 
-    while eleccion != numero and count<=5:
+    while eleccion != numero and count<=stop:
         count += 1
         eleccion = int(input(f"Escribe un número entre 1 y {x}: "))
         
